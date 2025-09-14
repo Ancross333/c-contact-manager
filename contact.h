@@ -4,7 +4,7 @@ typedef struct Contact {
     char phone[15];
 } contact_t;
 
-void list_contacts(contact_t contacts[10]);
-void add_contact(contact_t contacts[10]);
-void edit_contact(contact_t contacts[10]);
-void remove_contact(contact_t contacts[10]);
+void list_contacts(contact_t contacts[]);
+void add_contact(contact_t contacts[]);
+void edit_contact(contact_t contacts[]);
+void remove_contact(contact_t contacts[]);

@@ -2,7 +2,7 @@
 
 ## contact.h has:
   
-  contact_t:
+    contact_t:
 
 	49 character first name
 
@@ -10,18 +10,18 @@
 
 	15 character phone number (not validated)
 	  
-      
-  void list_contacts(contact_t contacts[10]);
 
-  void add_contact(contact_t contacts[10]);
+    void list_contacts(contact_t contacts[10]);
 
-  void edit_contact(contact_t contacts[10]);
+    void add_contact(contact_t contacts[10]);
 
-  void remove_contact(contact_t contacts[10]);
+    void edit_contact(contact_t contacts[10]);
+
+    void remove_contact(contact_t contacts[10]);
 
 ## Main loop:
 
-  Main menu:
+    Main menu:
 
     List Contacts:
 
