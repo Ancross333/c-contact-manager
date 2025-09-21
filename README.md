@@ -4,11 +4,11 @@
   
     contact_t:
 
-	49 character first name
+    49 character first name
 
-	49 character last name
+    49 character last name
 
-	15 character phone number (not validated)
+    15 character phone number (not validated)
 	  
 
     void list_contacts(contact_t contacts[10]);
@@ -23,29 +23,29 @@
 
     Main menu:
 
-    List Contacts:
+      List Contacts:
 
-      Prints all contacts
+        Prints all contacts
 
-    Add Contact:
+      Add Contact:
 
-      Enter First Name, Last Name
+        Enter First Name, Last Name
 
-    Remove Contact: 
+      Remove Contact: 
 
-      Print index next to contact names, select number at index to remove
+        Print index next to contact names, select number at index to remove
 
-    Edit contact:
+      Edit contact:
 
-      Print index next to contact names, select number at index to enter edit screen per contact:
+        Print index next to contact names, select number at index to enter edit screen per contact:
 
-        Edit first name
+          Edit first name
 
-        Edit last name
+          Edit last name
 
-        Edit phone number
+          Edit phone number
 
-        Go back
+          Go back
 
-    Close program
+      Close program
     
