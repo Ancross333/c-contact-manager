@@ -6,13 +6,24 @@ void closeProgram(bool *shouldClose) {
     *shouldClose = true;
 }
 
-void chooseOption(int option, int contactCount, bool shouldClose) {
+void chooseOption(int option, contact_t contacts[], int *contactCount, bool shouldClose) {
     switch (option)
     {
+        case 1:
+            list_contacts(contacts, *contactCount);
+            break;
+        case 2:
+            add_contact(contacts, &contactCount);
+            break;
+        case 3:
+            edit_contact(contacts, *contactCount);
+            break;
+        case 4:
+            remove_contact(contacts, &contactCount);
+            break;
         case 5:
             closeProgram(&shouldClose);
             break;
-        
         default:
             break;
     }
